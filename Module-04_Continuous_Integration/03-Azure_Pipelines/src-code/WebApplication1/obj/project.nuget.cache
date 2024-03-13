@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "VCzKCTRl0JZmSnq6B7Da635KaR0dSCQnyXEUOtvw3OeYWZeFpud2M/BU2V7PmUH9rtQgHx9johPNsJREKGNbnw==",
+  "dgSpecHash": "8kX7JDpVjckEKshMzHjjipB5G7QsCXUBtxnKL1M+QzGLMnm6z47wwHSBsf/JcwhxDOZn5FKL6EX75JNT5dD1CQ==",
   "success": true,
   "projectFilePath": "D:\\OneDRV_BKUP\\CT\\DevOps\\GitHub\\devops-masterclass\\Module-04_Continuous_Integration\\03-Azure_Pipelines\\src-code\\WebApplication1\\WebApplication1.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ServerX\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
-    "C:\\Users\\ServerX\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
-    "C:\\Users\\ServerX\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512",
-    "C:\\Users\\ServerX\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.27\\microsoft.netcore.app.host.win-x64.6.0.27.nupkg.sha512"
+    "C:\\Users\\ServerX\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.28\\microsoft.netcore.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\ServerX\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.28\\microsoft.windowsdesktop.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\ServerX\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.28\\microsoft.aspnetcore.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\ServerX\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.28\\microsoft.netcore.app.host.win-x64.6.0.28.nupkg.sha512"
   ],
   "logs": []
 }
