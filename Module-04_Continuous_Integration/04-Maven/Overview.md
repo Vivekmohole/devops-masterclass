@@ -36,7 +36,48 @@ The process followed by a software development team when building software is as
   - Enables switching between development profiles.
   - Integrates with DevOps tools such as Jenkins and Docker.
 
-## Maven Installation
+## [Maven Installation](https://maven.apache.org/download.cgi)
+
+### Setup Maven on Linux
+
+- Provision an EC2 Instance and connect to it over SSH
+- Install Java on the VM/PM
+
+```
+# Find java program
+
+# Set Java Home path
+
+
+```
+
+- Download and Install Maven from this link: https://maven.apache.org/download.cgi
+
+```
+cd /opt
+sudo wget https://dlcdn.apache.org/maven/maven-3/3.9.6/binaries/apache-maven-3.9.6-bin.tar.gz
+
+# Extract the compressed download
+sudo tar -xvzf apache-maven-3.9.6-bin.tar.gz
+
+# Get inside the extracted directory
+cd apache-maven-3.9.6
+```
+
+- Set Maven path
+
+```
+# Set Maven Path
+sudo vi ~/.bash_profile
+
+M2_HOME=/opt/apache-maven-3.9.6
+M2=/opt/apache-maven-3.9.6/bin
+
+# Append the above two variables into existing PATH
+PATH=<YOUR_EXISTING_PATHS>:$M2:$M2_HOME
+
+# Save the file and Quit
+```
 
 ## What is an `Apache Maven` phase?
 
@@ -47,6 +88,8 @@ The process followed by a software development team when building software is as
   - **test** – runs a project’s unit tests.
   - **package** – creates an artifact such as a JAR, ZIP or WAR file.
   - **install** – moves a created artifact into a Maven repository.
+
+## Maven project directory structure
 
 ## How does `Maven` manage Java dependencies?
 
