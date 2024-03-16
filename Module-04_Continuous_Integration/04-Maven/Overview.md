@@ -77,6 +77,12 @@ M2=/opt/apache-maven-3.9.6/bin
 PATH=<YOUR_EXISTING_PATHS>:$M2:$M2_HOME
 
 # Save the file and Quit
+
+# Bring the updated path live
+source ~/.bash_profile
+
+# Check Maven version
+mvn -version
 ```
 
 ## What is an `Apache Maven` phase?
