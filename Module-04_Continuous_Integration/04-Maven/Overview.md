@@ -38,6 +38,15 @@ The process followed by a software development team when building software is as
 
 ## [Maven Installation](https://maven.apache.org/download.cgi)
 
+```
+# Maven installation on Amazon Linux 2 AMI | Install Apache Maven on your EC2 instance
+sudo wget https://repos.fedorapeople.org/repos/dchen/apache-maven/epel-apache-maven.repo -O /etc/yum.repos.d/epel-apache-maven.repo
+
+sudo sed -i s/\$releasever/6/g /etc/yum.repos.d/epel-apache-maven.repo
+
+sudo yum install -y apache-maven
+```
+
 ### Setup Maven on Linux
 
 - Provision an EC2 Instance and connect to it over SSH
