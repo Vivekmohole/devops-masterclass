@@ -38,8 +38,10 @@ The process followed by a software development team when building software is as
 
 ## [Maven Installation](https://maven.apache.org/download.cgi)
 
+### Maven installation on Amazon Linux 2 AMI
+
 ```
-# Maven installation on Amazon Linux 2 AMI | Install Apache Maven on your EC2 instance
+# Download maven repo details
 sudo wget https://repos.fedorapeople.org/repos/dchen/apache-maven/epel-apache-maven.repo -O /etc/yum.repos.d/epel-apache-maven.repo
 
 sudo sed -i s/\$releasever/6/g /etc/yum.repos.d/epel-apache-maven.repo
@@ -47,7 +49,7 @@ sudo sed -i s/\$releasever/6/g /etc/yum.repos.d/epel-apache-maven.repo
 sudo yum install -y apache-maven
 ```
 
-### Setup Maven on Linux
+### Setup Maven on other Linux distros
 
 - Provision an EC2 Instance and connect to it over SSH
 - Install Java on the VM/PM
@@ -103,8 +105,6 @@ mvn -version
   - **test** – runs a project’s unit tests.
   - **package** – creates an artifact such as a JAR, ZIP or WAR file.
   - **install** – moves a created artifact into a Maven repository.
-
-## Maven project directory structure
 
 ## How does `Maven` manage Java dependencies?
 

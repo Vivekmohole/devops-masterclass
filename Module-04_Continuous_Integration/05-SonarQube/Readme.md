@@ -58,7 +58,14 @@
 
 ## How SonarQube works?
 
-## SonarQube Installation on Virtual Machine (Amazon EC2 | Linux)
+## Setup SonarQube on Amazon EC2 Instance (Amazon Linux 2)
+
+- Provision a new EC2 Instance, say SonarQube server with below specs:
+  - Instance Type: t2.micro (recommended is atleast 2GB memory)
+  - AMI: Amazon Linux 2
+  - VPC & Subnet: Default
+  - Security Group: Allow traffic on port 22 and 9000
+- Install Java
 
 ## SonarQube console walkthrough
 
